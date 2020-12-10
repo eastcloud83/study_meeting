@@ -1,0 +1,16 @@
+{% load static %}
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+</head>
+
+<body class="container">
+    <p class="h5 mt-4 q-sent">{{message}}</p>
+    <p>{{answer|safe}}</p>
+    <a href="{% url 'question' %}"><button type="button" class="btn btn-outline-success">戻る</button></a>
+</body>
+
+</html>

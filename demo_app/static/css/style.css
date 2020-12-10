@@ -1,0 +1,14 @@
+body {
+    color:gray;
+    font-size:16pt;
+    padding:20px;
+}
+.q-sent {
+    padding-bottom:30px;
+}
+.table td {
+    border: none;
+}
+.btn {
+    float: right;
+}
